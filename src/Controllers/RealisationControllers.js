@@ -24,7 +24,8 @@ function deleteRealisation(req, res) {
     RealisationsProject.map((element) => element.id).indexOf(realisation.id),
     1
   );
-  setRealisation(RealisationsProject.length >0 ? RealisationsProject : []);
+  setRealisation(RealisationsProject.length > 0 ? RealisationsProject : []);
+  
   res.status(200).json({
     message: `resource deleted successfully`,
     results: RealisationsProject,
