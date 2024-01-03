@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T11:03:40.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="K6E_bU8dtTcBgSMQ25Pt" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T11:06:52.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="KHjYcxZ-iqjsYt8f-A4V" version="22.1.16" type="github">
   <diagram name="Page-1" id="mI9iQHq9Ga2JHR_YVcRe">
-    <mxGraphModel dx="2501" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1947" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IG-_UTLTYs7hTeTjO2VE-1" value="Entreprises" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="50" width="140" height="52" as="geometry" />
+          <mxGeometry x="-780" y="50" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IG-_UTLTYs7hTeTjO2VE-3" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IG-_UTLTYs7hTeTjO2VE-1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+          <mxGeometry y="26" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="IG-_UTLTYs7hTeTjO2VE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IG-_UTLTYs7hTeTjO2VE-5" target="IG-_UTLTYs7hTeTjO2VE-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IG-_UTLTYs7hTeTjO2VE-5" value="&lt;div&gt;Utilisateurs&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-780" y="180" width="140" height="52" as="geometry" />
@@ -81,6 +84,17 @@
         </mxCell>
         <mxCell id="IG-_UTLTYs7hTeTjO2VE-32" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IG-_UTLTYs7hTeTjO2VE-31">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IG-_UTLTYs7hTeTjO2VE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IG-_UTLTYs7hTeTjO2VE-3" target="IG-_UTLTYs7hTeTjO2VE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-740" y="140" />
+              <mxPoint x="-745" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IG-_UTLTYs7hTeTjO2VE-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IG-_UTLTYs7hTeTjO2VE-7" target="IG-_UTLTYs7hTeTjO2VE-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
